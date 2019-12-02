@@ -1,0 +1,20 @@
+<html>
+    <body>
+
+    <p>Bonjour <span id="prenom"></span>, ton temps de formation est de : <span id="tpsformation"></span>heures</p>
+
+
+
+<script>
+var prenom=prompt("quel est ton prénom ?");
+var nbSemaines=prompt("Combien de semaines dure ta formation?");
+var nbHeuresHedbo=prompt("Combien d'heures par semaine?");
+var tpsformation=nbSemaines*nbHeuresHedbo;
+
+document.getElementById('prenom').innerHTML=prenom;
+document.getElementById('tpsformation').innerHTML=tpsformation;
+
+</script>
+    
+    </body>
+</html>

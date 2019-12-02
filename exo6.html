@@ -1,0 +1,36 @@
+
+<script>/*
+var gouttiere=3;
+var margeinterieure=2;
+var totale=22;
+var nbcolonnes=3;
+var colonnes=(totale-((gouttiere*2)+(margeinterieure*(nbcolonnes-1))));
+var lacolonne=(colonnes/nbcolonnes);
+
+
+document.write(lacolonne);
+*/
+</script>
+
+<div id="gouttiere">gouttiere</div>
+
+<script>
+   
+        var gouttiere=prompt("largeur de la gouttiere ?");
+        var margeinterieure=prompt("marge intérieure ?");
+        var totale=prompt("valeur totale ?");
+        var nbcolonnes=prompt("nombre de colonnes ?");
+        var colonnes=(totale-((gouttiere*2)+(margeinterieure*(nbcolonnes-1))));
+        var lacolonne=(colonnes/nbcolonnes);
+        
+        //document.write(lacolonne);
+        
+        document.getElementById('gouttiere').innerHTML=lacolonne;
+
+        </script>
+
+
+
+
+
+

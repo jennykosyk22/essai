@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<p id="age"></p>
+
+
+<script>
+// var age=prompt("ton age?")
+var sonAnnee=prompt("ton annee de naissance ?")
+var laDate=new Date();
+var annee=laDate.getFullYear();
+alert(annee);
+// alert (annee)
+var age=annee-sonAnnee;
+// console.log(age);
+
+document.getElementById("age").innerHTML="tu as "+age+"ans";
+
+</script>
+
+</body>
+</html>
